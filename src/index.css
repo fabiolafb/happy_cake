@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f5e1de;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Navbar */
+.color_navbar {
+  background-color: #f9a59a;
+}
+.justify-content-star {
+  display: flex;
+  align-content: space-between;
+}
+.div_logo {
+  margin-left: 50rem;
+}
+.name_pasteleria {
+  margin-right: 0px;
+}
+.logo_navbar {
+  width: 4rem;
+}
+
+/* Home */
+.pastel {
+  margin-top: 1rem;
+  width: 28rem;
+}
+
+/* Contacto */
+form {
+  margin: 2rem 10rem 0 10rem;
+}
+.name_form {
+  text-align: center;
+}
+.pregunta {
+  text-align: center;
+  margin-top: 3rem;
+}
+.footer {
+  background-color: #f9a59a;
+}
+
+/* NotFound */
+.error {
+  text-align: center;
+  margin-top: 5rem;
 }
