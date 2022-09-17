@@ -9,15 +9,15 @@ export default function Navigation() {
         <Container className="justify-content-between">
           <div className="menu_principal">
             <Link to="/" className="text-dark ms-3 text-decoration-none">
-                🏠Home
+              🏠Home
             </Link>
             <Link to="/contacto" className="text-dark ms-3 text-decoration-none">
-            ✉Contacto
+              ✉Contacto
             </Link>
           </div>
           <div className="div_logo  ms-5">
             <Link to="/" className="text-dark ms-3 text-decoration-none">
-              <Navbar.Brand className="m-0">Sweet Cake
+              <Navbar.Brand className="m-1">Sweet Cake
               <img src={logo} alt="" className="logo_navbar" /></Navbar.Brand>
             </Link> 
           </div>

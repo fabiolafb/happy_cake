@@ -12,7 +12,6 @@ function App() {
 
   return (
     <>
-    <div>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -20,7 +19,7 @@ function App() {
           <Route path="/contacto" element={<Contacto />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter></div>
+      </BrowserRouter>
     </>
   );
 }
